@@ -1,0 +1,32 @@
+{
+  "name": "task-platform",
+  "version": "1.0.0-mvp-complete",
+  "admin_telegram_ids": [
+    7391716280
+  ],
+  "features": [
+    "telegram-initdata-auth",
+    "glassmorphism-miniapp",
+    "floating-bottom-nav",
+    "admin-dashboard",
+    "vip",
+    "tasks",
+    "campaigns",
+    "proof-review",
+    "ledger-foundation",
+    "payment-provider-adapter-disabled-by-default",
+    "campaign-moderation",
+    "campaign-pause-resume-cancel",
+    "proof-appeals",
+    "admin-user-management",
+    "trust-level-management",
+    "user-reports",
+    "admin-audit-log",
+    "wallet-ledger-history",
+    "campaign-escrow-refunds",
+    "vip-features",
+    "telegram-initdata-hardening"
+  ],
+  "payment_status": "disabled-until-provider-selected",
+  "production_ready": false
+}

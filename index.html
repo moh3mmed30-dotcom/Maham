@@ -1,0 +1,12 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>إدارة المنصة</title><link rel="stylesheet" href="../miniapp/css/glass.css"><link rel="stylesheet" href="css/admin.css"><script src="https://telegram.org/js/telegram-web-app.js"></script></head><body><main class="admin-wrap">
+<header class="glass-card head"><div><h1>لوحة الإدارة</h1><small>إدارة منصة المهام والحملات والمكافآت</small></div><span class="tag">ADMIN</span></header>
+<section class="grid"><article class="glass-card metric"><small>المستخدمون</small><b id="users">—</b></article><article class="glass-card metric"><small>الحملات</small><b id="campaigns">—</b></article><article class="glass-card metric"><small>إثباتات معلقة</small><b id="proofs-count">—</b></article></section>
+<section class="glass-card panel"><h2>مراجعة الإثباتات</h2><div id="proofs">جارٍ التحميل...</div></section>
+<section class="glass-card panel"><h2>الاعتراضات</h2><div id="appeals">جارٍ التحميل...</div></section>
+<section class="glass-card panel"><h2>الحملات</h2><div id="campaign-list">جارٍ التحميل...</div></section>
+<section class="glass-card panel"><h2>المستخدمون</h2><input id="user-search" placeholder="بحث بمعرف Telegram"><button id="search-users">بحث</button><div id="user-list"></div></section>
+<section class="glass-card panel"><h2>منح VIP</h2><p>أدخل رقم المستخدم الداخلي (User ID) وعدد الأيام.</p><input id="vip-user" type="number" placeholder="User ID"><input id="vip-days" type="number" value="30" min="1"><input id="vip-features" placeholder="مميزات مفصولة بفواصل"><button id="grant">منح VIP</button></section>
+<section class="glass-card panel"><h2>طلبات السحب</h2><div id="withdrawals">لا توجد بيانات</div><p class="muted">لا يتم تنفيذ تحويلات حقيقية من هذه اللوحة قبل ربط مزود دفع مرخّص.</p></section>
+<section class="glass-card panel"><h2>بلاغات المستخدمين</h2><div id="reports">جارٍ التحميل...</div></section>
+<section class="glass-card panel"><h2>سجل الإدارة</h2><div id="audit">جارٍ التحميل...</div></section><div id="message" role="status"></div>
+</main><script src="js/admin.js"></script></body></html>
